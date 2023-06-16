@@ -1,23 +1,22 @@
-.box50{
+.box{
     width: 40px;
     height: 40px;
     text-align: center;
     line-height: 40px;
     display: inline-block;
 }
-.myfooter ul{
+.footer ul{
     list-style: none;
     padding: 0px;
     margin: 0px;
 }
-.myfooter ul>li>a{
-    text-decoration: none;
-    color: white;
+.footer__link {
+  text-decoration: none;
 }
 body {
     font-family: Arial, sans-serif;
   }
-.list-menu .li_menu a  {
+.footer__list .footer__item a  {
     color:#bdc1d0;
   }
 .col-md-6 .m-0{
